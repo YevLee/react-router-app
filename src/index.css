@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+}
+.commentApp{
+  padding:40px;
+  width:400px;
+  margin:30px auto 0;
+  background:#fff;
+  border:1px solid gray;
+}
+.commentInput{
+  width:100%;
+}
+.commentInput .username{
+  color:#353535;
+  font-size:18px;
+}
+.commentInput .username .txt{
+  display: inline-block;
+  vertical-align: middle;
+}
+.commentInput .username .name{
+  display: inline-block;
+  border:1px solid gray;
+  width:300px;
+  vertical-align: middle;
+  margin-left:10px;
+}
+.commentInput .username .name .nameIpt{
+  display:block;
+  width:100%;
+  height:40px;
+  line-height: 40px;
+  border:none;
+  background:none;
+  outline: none;
+  padding-left:20px;
+}
+.commentInput .content{
+width:100%;
+margin-top:40px;
+}
+.commentInput .content .txt{
+  display: inline-block;
+  vertical-align: top;
+  font-size:18px;
+}
+.commentInput .content .content_txt{
+  display: inline-block;
+  border:1px solid gray;
+  width:300px;
+  height:300px;
+  vertical-align: middle;
+  margin-left:30px;
+  
+}
+.commentInput .content .content_txt .textarea{
+  resize: none;
+  width:100%;
+  height:100%;
+  border: none;
+  outline: none;
+}
+.commentInput .submitBtn{
+  width:100px;
+  border-radius: 5px;
+  overflow: hidden;
+  float:right;
+  margin-top:10px;
+  color:#353535;
+  font-size:24px;
+}
+.commentInput .submitBtn button{
+  color:#fff;
+  background:blue;
+  line-height:40px;
+  text-align:center;
+  display: block;
+  width:100%;
+  border:none;
+  outline: none;
+}
+.commentListBox{
+  clear:both;
+}
+.commentListBox .listTitle{
+  font-weight: normal;
+}
+.commentListBox commentList{
+
+}

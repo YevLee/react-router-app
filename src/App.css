@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer .nav_item {
+  width: 33.33%;
+}
+
+.footer .nav_item a {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.inline_box {
+  width: 100%;
+  list-style: none;
+  display: inline-flex;
+}
